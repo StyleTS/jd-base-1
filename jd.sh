@@ -72,6 +72,8 @@ function Combin_All {
   export JDSGMH_SHARECODES=$(Combin_Sub ForOtherSgmh)
   export JDCFD_SHARECODES=$(Combin_Sub ForOtherCfd)
   export JDGLOBAL_SHARECODES=$(Combin_Sub ForOtherGlobal)
+  export JDGLOBAL_SHARECODES=$(Combin_Sub ForOtherGlobal)
+  export CITY_SHARECODES=$(Combin_Sub ForOtherCity)
 }
 
 ## 转换 JD_BEAN_SIGN_STOP_NOTIFY 或 JD_BEAN_SIGN_NOTIFY_SIMPLE
